@@ -1,0 +1,67 @@
+# ─── Secrets & environment ───────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+google-services.json
+GoogleService-Info.plist
+# .env.example intentionally NOT ignored — commit it as a template
+
+# ─── Flutter / Dart ──────────────────────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# ─── Android ─────────────────────────────────────────────────────────────────
+android/local.properties
+android/.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+android/key.properties
+*.jks
+*.keystore
+
+# ─── iOS / macOS ─────────────────────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/ServiceDefinitions.json
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# ─── IDE & OS ────────────────────────────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db

@@ -1,0 +1,34 @@
+name: paczone
+description: "PacZone - Turn your surroundings into a game zone."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  # Location
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+  # Map — MapLibre-compatible tile renderer + OSM tiles
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.0
+  flutter_dotenv: ^5.2.1
+  # Backend API
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
