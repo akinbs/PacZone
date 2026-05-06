@@ -541,18 +541,6 @@ uvicorn main:app --reload
 
 ---
 
-## Telif ve Marka Notu
-
-PacZone, klasik arcade oyunlarından esinlenen özgün bir konum tabanlı oyun konseptidir. Projede doğrudan telifli karakter, ses, görsel veya marka varlığı kullanılmamalıdır.
-
-Özellikle:
-
-- Doğrudan Pac-Man karakteri kullanılmamalıdır.
-- Telifli hayalet karakter tasarımları kullanılmamalıdır.
-- Özgün **Chomp Mode** karakteri ve özgün enemy tasarımları kullanılmalıdır.
-
----
-
 # English
 
 ## Table of Contents
@@ -1067,15 +1055,6 @@ uvicorn main:app --reload
 
 ---
 
-## Copyright and Brand Note
-
-PacZone is an original location-based game concept inspired by classic arcade mechanics. The project must not use copyrighted characters, sounds, visual assets, or brand elements.
-
-Especially:
-
-- Do not use the original Pac-Man character directly.
-- Do not use copyrighted ghost designs.
-- Use an original **Chomp Mode** character and original enemy designs.
 
 ---
 
